@@ -43,7 +43,7 @@
       (map (fn [[c if]] [if of]) (butlast v))))
 
 (defn trim [f]
-  (last (str/split f #"/")))
+  (first (str/split (last (str/split f #"/")) #"\.")))
 
 (defn print-edges [[if of]]
   (str (trim if) " -> " (trim of) ";"))
