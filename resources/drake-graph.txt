@@ -1,0 +1,98 @@
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_REF_BLOOD_CULTURE.bteq
+O	/home/bru8927/Sepsis-Prediction/././export/ref/DS_REF_BLOOD_CULTURE
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_ABX_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+I	/home/bru8927/Sepsis-Prediction/././export/ref/DS_REF_ABX
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_ABX_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_ARRIVAL_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_ARRIVAL_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_BAND2_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+I	/home/bru8927/Sepsis-Prediction/././export/ref/DS_REF_BAND
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_BAND2_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_BLOOD_CULTURE_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+I	/home/bru8927/Sepsis-Prediction/././export/ref/DS_REF_BLOOD_CULTURE
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_BLOOD_CULTURE_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_DBP_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_DBP_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_DIAGNOSIS_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_DIAGNOSIS_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_ETHNICITY_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_ETHNICITY_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_ICU_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_ICU_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_MAP_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_MAP_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_RR_HR_PULSE_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_RR_HR_PULSE_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_SBP_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_SBP_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_SURG_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_SURG_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_TEMP_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_TEMP_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_WBC2_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+I	/home/bru8927/Sepsis-Prediction/././export/ref/DS_REF_WBC
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_WBC2_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_WEIGHT_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_WEIGHT_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././SQL/stage_DS_SEPSIS_SEPSIST0_SURG_1M.bteq
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_SURG_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/ref/population
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_RR_HR_PULSE_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_TEMP_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_WBC2_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_ABX_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_BLOOD_CULTURE.txt
+O	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_SEPSIST0_SURG_1M.txt
+S
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_ABX_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_AGE_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_ARRIVAL_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_BAND2_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_BLOOD_CULTURE_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_DBP_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_DIAGNOSIS_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_ETHNICITY_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_GENDER_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_ICU_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_MAP_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_RR_HR_PULSE_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_SBP_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_SEPSIST0_SURG_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_SURG_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_TEMP_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_WBC2_1M.txt
+I	/home/bru8927/Sepsis-Prediction/././export/tmp/DS_SEPSIS_WEIGHT_1M.txt
+O	/home/bru8927/Sepsis-Prediction/././export/DS_SEPSIS_POST_PROCESSED.txt
+drake: 
